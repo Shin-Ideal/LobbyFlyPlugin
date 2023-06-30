@@ -1,0 +1,32 @@
+#LobbyFlyPlugin Config
+
+join-fly:
+  enable: true
+  add-y-location: 3
+
+disable-fall-damage:
+  enable: true
+
+disable-all-damage:
+  enable: false
+
+join-tp-spawn:
+  enable: true
+  #Location Base WorldSpawnPoint
+  add-x: 0.5
+  add-y: 0
+  add-z: 0.5
+
+horizon-limit:
+  enable: false
+  x-min-distance: -100
+  x-max-distance: 100
+  z-min-distance: -100
+  z-max-distance: 100
+
+back-from-void:
+  enable: true
+  #Location Base WorldSpawnPoint
+  add-x: 0.5
+  add-y: 0
+  add-z: 0.5

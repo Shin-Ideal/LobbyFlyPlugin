@@ -1,0 +1,23 @@
+name: LobbyFlyPlugin
+version: '${project.version}'
+main: com.github.Shin_Ideal.LobbyFlyPlugin.LobbyFlyPlugin
+api-version: 1.8
+authors: [ Shin ]
+
+commands:
+  fly:
+    description: ToggleFly
+    aliases: [togglefly]
+    permission: lobbyflyplugin.fly
+  flymanage:
+    description: ManageFlyPlugin
+    aliases: [fm]
+    permission: lobbyflyplugin.flymanage
+
+permissions:
+  lobbyflyplugin.fly:
+    description: ToggleFly
+    default: op
+  lobbyflyplugin.flymanage:
+    description: ManageFlyPlugin
+    default: op
